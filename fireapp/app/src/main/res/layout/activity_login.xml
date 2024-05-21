@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    tools:context=".LoginActivity">
+
+    <RelativeLayout
+        android:id="@+id/open_search_view_toolbarRl"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:background="@drawable/toolbar01">
+
+        <ImageView
+            android:id="@+id/iconIv"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/logo1">
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iconIv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="Lütfen Giriş Yapın"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:fontFamily="sans-serif-condensed">
+
+        </TextView>
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="230dp"
+        android:layout_above="@id/hesapYok">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/emailTil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintEnabled="false">
+
+                <EditText
+                    android:id="@+id/emailEt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_edittext01"
+                    android:drawableStart="@drawable/email_blue"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:padding="12dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/gray1">
+
+                </EditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/passwordTil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/emailTil"
+                app:passwordToggleEnabled="true"
+                android:layout_marginTop="5dp"
+                app:hintEnabled="false">
+
+                <EditText
+                    android:id="@+id/passwordEt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_edittext01"
+                    android:drawableStart="@drawable/lock_blue"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:padding="12dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/gray1">
+
+                </EditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/forgotTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/passwordTil"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="4dp"
+                android:padding="4dp"
+                android:text="Şifremi Unuttum"
+                android:background="@drawable/shape_btn1"
+                android:textColor="#FF1F1F"
+                android:textSize="16dp">
+
+            </TextView>
+            <Button
+                android:id="@+id/girisBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/forgotTv"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape_btn1"
+                android:text="Giriş"
+                android:textColor="@color/white">
+
+            </Button>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/hesapYok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:padding="16dp"
+        android:textSize="20sp"
+        android:text="@string/yeni_kullanici_misin_kayitolun"
+        android:textColor="#FF0000">
+
+    </TextView>
+
+</RelativeLayout>

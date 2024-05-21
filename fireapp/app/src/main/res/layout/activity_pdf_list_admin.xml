@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PdfListAdminActivity">
+
+    <RelativeLayout
+        android:id="@+id/toolbarRl"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@drawable/toolbar02">
+
+        <ImageButton
+            android:id="@+id/geriBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_arrow_back_24"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:background="@android:color/transparent">
+        </ImageButton>
+
+        <TextView
+            android:id="@+id/titleTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kitaplar"
+            android:layout_marginTop="8dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white">
+        </TextView>
+
+        <TextView
+            android:id="@+id/subTitleTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kategori"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:layout_below="@id/titleTv">
+        </TextView>
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/searchEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:layout_below="@id/toolbarRl"
+        android:hint="Ara"
+        android:textColorHint="@color/gray2"
+        android:drawableStart="@drawable/baseline_search_blue_24"
+        android:drawablePadding="10dp"
+        android:textColor="@color/black">
+    </EditText>
+
+    <LinearLayout
+        android:id="@+id/bookRv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/searchEt"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Nesne Yönelimli Programlama (OOP): Java, nesne yönelimli programlama prensiplerini temel alır. Bu, verileri ve işlevleri birlikte gruplamak, tekrar kullanılabilirlik ve kod organizasyonu açısından önemlidir.">
+
+        </EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Çoklu İş Parçacıkları (Multithreading): Java, çoklu iş parçacıkları desteği sağlar. Bu, bir Java programının aynı anda birden fazla işlemi eşzamanlı olarak yürütmesini sağlar, performansı artırabilir.">
+
+        </EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Büyük Kurumsal Uygulamalar: Java, büyük ölçekli ve karmaşık kurumsal uygulamaların geliştirilmesinde sıklıkla tercih edilir. Bu, büyük şirketlerin ve kuruluşların iş ihtiyaçlarını karşılamak için Java'yı seçmelerinin bir nedenidir.">
+
+        </EditText>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

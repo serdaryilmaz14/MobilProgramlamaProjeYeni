@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".BooksUserFragment">
+
+    <EditText
+        android:id="@+id/searchEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:drawableStart="@drawable/baseline_search_blue_24"
+        android:hint="Ara"
+        android:padding="10dp"
+        android:textColorHint="@color/gray1"/>
+
+    <LinearLayout
+        android:id="@+id/bookRv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/searchEt"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:text="Nesne Yönelimli Programlama (OOP): Java, nesne yönelimli programlama prensiplerini temel alır. Bu, verileri ve işlevleri birlikte gruplamak, tekrar kullanılabilirlik ve kod organizasyonu açısından önemlidir.">
+
+        </EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:text="Çoklu İş Parçacıkları (Multithreading): Java, çoklu iş parçacıkları desteği sağlar. Bu, bir Java programının aynı anda birden fazla işlemi eşzamanlı olarak yürütmesini sağlar, performansı artırabilir.">
+
+        </EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:text="Büyük Kurumsal Uygulamalar: Java, büyük ölçekli ve karmaşık kurumsal uygulamaların geliştirilmesinde sıklıkla tercih edilir. Bu, büyük şirketlerin ve kuruluşların iş ihtiyaçlarını karşılamak için Java'yı seçmelerinin bir nedenidir.">
+
+        </EditText>
+    </LinearLayout>
+</LinearLayout>
