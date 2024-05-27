@@ -2,3 +2,5 @@
 ![WhatsApp Image 2024-05-27 at 20 05 56](https://github.com/serdaryilmaz14/MobilProgramlamaProjeYeni/assets/116540924/c1d6dbc3-bb36-400a-a8d2-2c74fd6be844)
 ![WhatsApp Image 2024-05-27 at 20 05 57](https://github.com/serdaryilmaz14/MobilProgramlamaProjeYeni/assets/116540924/70a41ca1-80e8-4b3d-be77-195e0a351987)
 ![WhatsApp Image 2024-05-27 at 20 05 58 (1)](https://github.com/serdaryilmaz14/MobilProgramlamaProjeYeni/assets/116540924/b0f5b5d8-f09d-4657-af46-34eccd8fb11f)
+![WhatsApp Image 2024-05-27 at 20 05 57 (1)](https://github.com/serdaryilmaz14/MobilProgramlamaProjeYeni/assets/116540924/f0dc0378-927c-4708-852f-e57715f36f42)
+![WhatsApp Image 2024-05-27 at 20 05 57 (2)](https://github.com/serdaryilmaz14/MobilProgramlamaProjeYeni/assets/116540924/3dea78db-3f0a-4340-a7b7-dd458a009cc0)
